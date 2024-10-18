@@ -1,0 +1,30 @@
+/* App.css */
+.app-container {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+.matrix-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.matrix-quadrant {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.matrix-quadrant h2 {
+  margin-top: 0;
+}
+
+.insights {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
